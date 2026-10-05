@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "plannerUrl": "demo://planner",
+    "plannerTab": "Masterplan",
+    "plannerAllTabs": false,
+    "engineerUrl": "demo://engineer",
+    "engineerTab": "Engineer",
+    "engineerAllTabs": false,
+    "productionUrl": "demo://production",
+    "productionTab": "Production",
+    "productionAllTabs": false,
+    "ftzUrl": "demo://ftz",
+    "ftzTab": "FTZ",
+    "ftzAllTabs": false,
+    "mailTasksUrl": "",
+    "mailTasksTab": "Mail Tasks",
+    "chatMessagesUrl": "",
+    "chatMessagesTab": "Chat Messages",
+    "componentAllocationUrl": "",
+    "componentTemplateTab": "TEMPLATE",
+    "refreshMinutes": 5
+  },
+  "mailTasks": [],
+  "routingWork": {},
+  "routingDetails": {},
+  "routingDone": {},
+  "componentDone": {}
+}

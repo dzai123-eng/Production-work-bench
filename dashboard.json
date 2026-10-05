@@ -1,0 +1,40 @@
+{
+  "configured": true,
+  "plannerSheetName": "Masterplan · Standalone demo",
+  "engineerSheetName": "Engineer · Standalone demo",
+  "productionSheetName": "Production · Standalone demo",
+  "ftzSheetName": "FTZ · Standalone demo",
+  "warnings": ["Standalone Web App V1 is running. Google Sheets/Gmail live adapters are the next migration layer; this screen currently uses local demo data."],
+  "changeHistory": [],
+  "changeHistoryTotal": 0,
+  "rows": [
+    {
+      "seq":1,"sapSo":"4500123456","sn":"SN-DEMO-001","model":"BROMMA DEMO","customer":"Demo Customer","endUser":"Demo Port",
+      "comDate":"16 Oct 2026","comDateKey":"2026-10-16","plannerWeek":42,"plannerYear":2026,"weekKey":"2026 WK42","plannerRow":10,
+      "engineerMatched":true,"engineerExempt":false,"engineerSnSource":"SN-DEMO-001","engineerGroupSns":["SN-DEMO-001"],"engineerGroupKey":"SN|SN-DEMO-001",
+      "engineerCommittedDate":"16 Oct 2026","engineerCommittedDateKey":"2026-10-16","dateMismatch":false,"mechEngineer":"Demo","elecEngineer":"Demo",
+      "mechanical":{"stage":"FINAL DONE","overdue":false,"latestText":"Final released","steps":[]},
+      "electrical":{"stage":"PRELIST DONE","overdue":true,"overdueDays":2,"latestText":"Prelist released","steps":[]},
+      "routing":{"stage":"NOT STARTED","overdue":true,"overdueDays":1,"latestText":"Pending routing","steps":[]},"routingRemarks":"Demo routing item","routingSourceTab":"FTZ"
+    },
+    {
+      "seq":2,"sapSo":"4500123457","sn":"G-DEMO-002","model":"BROMMA DEMO G","customer":"Demo Customer","endUser":"Demo Port",
+      "comDate":"23 Oct 2026","comDateKey":"2026-10-23","plannerWeek":43,"plannerYear":2026,"weekKey":"2026 WK43","plannerRow":11,
+      "engineerMatched":false,"engineerExempt":true,"engineerSnSource":"","engineerGroupSns":["G-DEMO-002"],"engineerGroupKey":"SN|G-DEMO-002",
+      "engineerCommittedDate":"","engineerCommittedDateKey":"","dateMismatch":false,"mechEngineer":"","elecEngineer":"",
+      "mechanical":{"stage":"-","overdue":false,"latestText":"-","steps":[]},"electrical":{"stage":"-","overdue":false,"latestText":"-","steps":[]},
+      "routing":{"stage":"-","overdue":false,"latestText":"-","steps":[]},"routingRemarks":"","routingSourceTab":""
+    }
+  ],
+  "productionRows": [
+    {
+      "sourceRow":10,"sourceCol":1,"productionDate":"12 Oct 2026","productionDateKey":"2026-10-12","productionWeek":42,"productionYear":2026,"productionWeekKey":"2026 WK42",
+      "sapSo":"4500123456","sn":"SN-DEMO-001","model":"BROMMA DEMO","customer":"Demo Customer","productionStatus":"Planned",
+      "engineerMatched":true,"engineerExempt":false,"mechEngineer":"Demo","elecEngineer":"Demo",
+      "mechanical":{"stage":"FINAL DONE","overdue":false,"latestText":"Final released","steps":[]},
+      "electrical":{"stage":"PRELIST DONE","overdue":true,"overdueDays":2,"latestText":"Prelist released","steps":[]},
+      "routing":{"stage":"NOT STARTED","overdue":true,"overdueDays":1,"latestText":"Pending routing","steps":[]},"routingRemarks":"Demo routing item"
+    }
+  ],
+  "summary":{"total":2,"matched":1,"ready":0,"overdue":1,"unmatched":0}
+}

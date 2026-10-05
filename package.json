@@ -1,0 +1,8 @@
+{
+  "name":"production-workbench-standalone",
+  "version":"1.0.0",
+  "private":true,
+  "description":"Standalone migration shell for Production Sequence Monitor / Unified Workbench V8.1.14",
+  "scripts":{"start":"node server.js"},
+  "engines":{"node":">=18"}
+}
